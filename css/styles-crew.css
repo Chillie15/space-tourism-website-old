@@ -1,0 +1,64 @@
+body {
+  background-color: #0b0d17;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../images/img-bg.png");
+}
+
+a {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.169rem;
+  margin-right: 48px;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -----Top Navigation Menu ----- */
+.top-nav {
+  margin-top: 2.5rem;
+  margin-left: 3.438rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-nav-right {
+  float: right;
+  text-align: center;
+  padding: 15px 165px 15px 123px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.number {
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 24px;
+  left: 167px;
+  width: 31.25rem;
+  height: 0.063rem;
+  background-color: white;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}

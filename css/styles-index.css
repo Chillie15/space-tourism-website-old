@@ -1,0 +1,124 @@
+body {
+  background-color: #0b0d17;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../images/Bitmap.jpg");
+}
+
+a {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.169rem;
+  margin-right: 48px;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -----Top Navigation Menu ----- */
+.top-nav {
+  margin-top: 2.5rem;
+  margin-left: 3.438rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-nav-right {
+  float: right;
+  text-align: center;
+  padding: 15px 165px 15px 123px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.number {
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 24px;
+  left: 167px;
+  width: 31.25rem;
+  height: 0.063rem;
+  background-color: white;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+/* ------------------------------ */
+
+/* ------ Content ------ */
+.content {
+  width: 28.125rem;
+  height: auto;
+  margin: 151px auto auto 165px;
+}
+
+.h1-content {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 9.375rem;
+  margin: 24px 0;
+}
+
+.h5-content {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 4.72px;
+  margin: 0 0 24px 0;
+}
+
+.p-content {
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.button {
+  position: absolute;
+  right: 165px;
+  top: 495px;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 48px;
+  background: #ffffff;
+  padding: 30px 64px 40px 64px;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-right: 0;
+}
+
+.btn:hover {
+  background: #000000;
+  font-family: "Playfair Display", serif;
+  color: white;
+  text-decoration: none;
+}
+/* ------------------------------ */

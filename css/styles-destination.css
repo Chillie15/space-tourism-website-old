@@ -1,0 +1,206 @@
+body {
+  background-color: #0b0d17;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../images/stars-background.jpg");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  height: 440px;
+  width: auto;
+}
+
+a {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.169rem;
+  margin-right: 48px;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Bellefair", serif;
+  font-size: 6.25rem;
+  color: white;
+  margin: 37px 0 14px 0;
+}
+
+h5 {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 4.72px;
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  color: #d0d6f9;
+  line-height: 2rem;
+  font-weight: normal;
+}
+
+hr {
+  border-style: solid;
+  border-color: #383b4b;
+  margin: 24px 0;
+  height: 1px;
+  border-top: 1px;
+}
+
+.moon,
+.mars,
+.jupiter {
+  color: #d0d6f9;
+}
+
+.moon:hover,
+.mars:hover,
+.jupiter:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* -----Top Navigation Menu ----- */
+.top-nav {
+  margin-top: 2.5rem;
+  margin-left: 3.438rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-nav-right {
+  float: right;
+  text-align: center;
+  padding: 15px 165px 15px 123px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.number {
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 24px;
+  left: 167px;
+  width: 31.25rem;
+  height: 0.063rem;
+  background-color: white;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+/* Top Container (Moon) */
+.top-container {
+  text-align: left;
+  position: relative;
+  margin-left: 165px;
+  margin-top: 80px;
+}
+
+.h5-destination {
+  margin-bottom: 60px;
+}
+
+.description-moon {
+  position: absolute;
+  right: 165px;
+  top: 0;
+  width: 445px;
+  height: auto;
+  text-align: left;
+}
+
+.number-destination {
+  font-weight: bold;
+  color: #4e5058;
+}
+
+.avg-distance-moon {
+  display: inline-block;
+  position: relative;
+  width: auto;
+}
+
+.est-travel-moon {
+  position: relative;
+  float: right;
+}
+
+/* Middle Container */
+.middle-container {
+  text-align: left;
+  position: relative;
+  margin-left: 165px;
+  margin-top: 200px;
+}
+
+.description-mars {
+  width: 445px;
+  position: absolute;
+  right: 165px;
+  top: 0;
+}
+
+.avg-distance-mars {
+  position: relative;
+  display: inline-block;
+}
+
+.est-travel-mars {
+  position: relative;
+  float: right;
+}
+
+/* Bottom Container */
+.bottom-container {
+  text-align: left;
+  position: relative;
+  margin-left: 165px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.description-jupiter {
+  width: 445px;
+  position: absolute;
+  right: 165px;
+  top: 0;
+}
+
+.avg-distance-jupiter {
+  position: relative;
+  display: inline-block;
+}
+
+.est-travel-jupiter {
+  position: relative;
+  float: right;
+}
